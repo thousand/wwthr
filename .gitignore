@@ -1,0 +1,35 @@
+#CSS gets compiled on the fly...
+*.css
+
+
+#OSX ignores
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+
+# SublimeText project files
+*.sublime-workspace
+
+
+# node.js ignores
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
+
