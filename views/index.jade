@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  header
+    h1= title
+
+  main
+    section#graph
+
+  footer
+
+
+
+block scripts
+  script(data-main="/js/wwthr.js", src="/js/lib/require.js")
